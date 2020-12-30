@@ -11,13 +11,12 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Controller
-@RequestMapping(value="person")
-public class PersonController {
+@RequestMapping(value="Login")
+public class LoginController {
 	
-	 @RequestMapping("/index")
-	  public String index(){
+	 @RequestMapping("/login")
+	  public String login(){
 	    return "index";
 	  }
-	 
 
 }
