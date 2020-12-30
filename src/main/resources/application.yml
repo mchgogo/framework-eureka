@@ -1,0 +1,18 @@
+server:
+   port: 9090
+   
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .html   
+  thymeleaf:
+    suffix: .html
+    prefix: classpath:/templates/
+    cache: false
+  tomcat:
+     basedir: target/
+     access_log_enabled: true  
+    
+ 
+    
