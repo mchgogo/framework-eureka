@@ -15,10 +15,10 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Controller
-@RequestMapping(value="Login")
+@RequestMapping(value="login")
 public class LoginController {
 	
-	 @RequestMapping("/login")
+	 @RequestMapping("/index")
 	  public String login(){
 	    return "index";
 	  }
